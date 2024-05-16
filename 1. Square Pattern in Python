@@ -1,0 +1,27 @@
+#method 1
+#Square pattern program
+
+
+size = 5
+
+# Create a list of rows
+for i in range(0, size):
+    # Create a list of columns
+    for j in range(0, size):
+        print("*", end="")
+    print()
+
+#methodv 2
+# Square pattern program
+size = 5
+
+for i in range(0, size):
+    # printing * for 'size' times and a new line
+    print("*" * size)
+
+#output
+*****
+*****
+*****
+*****
+*****
